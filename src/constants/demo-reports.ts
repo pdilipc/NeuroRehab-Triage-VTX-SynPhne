@@ -1,0 +1,32 @@
+import { RehabReport } from '../services/rehab-reports.service';
+
+export const DEMO_REHAB_REPORT: RehabReport = {
+  id: 'demo',
+  patient_id: 'demo',
+  session_date: '2022-02-16T00:00:00Z',
+  session_number: 1,
+  trainer_name: 'Dr. Ankita Mehendale',
+  condition: 'Left MCA infarct',
+  fhir_diagnostic_report_id: undefined,
+  fhir_document_reference_id: undefined,
+  pdf_url: '/reports/Combined_Baseline_and_Progress_Report.pdf',
+  emg_supinator: -3,
+  emg_pronator: -1,
+  emg_thumb: -4,
+  emg_wrist_extensor: 0.5,
+  emg_wrist_flexor: -3,
+  emg_finger_extensor: 0.5,
+  emg_finger_flexor: -3,
+  eeg_brain_symmetry_pre: -0.193649,
+  eeg_brain_symmetry_post: -0.840972,
+  eeg_attention_response_index: 2.902,
+  eeg_smiley_index: 42.9,
+  eeg_relative_alpha_pre: 0.05,
+  eeg_relative_alpha_post: 0.04,
+  eeg_dar: 15,
+  eeg_alpha_asymmetry: -0.5,
+  eeg_total_power_asymmetry: 0.3,
+  clinical_recommendations:
+    '1) Regular training with SynPhNe technology for improving self-regulation.\n2) Improve attention and focus during movement by building endurance.\n3) Improve relaxation of all upper limb muscles.\n4) Work towards improving Gross and Fine Motor Activities.',
+  created_at: '2022-02-16T00:00:00Z',
+};
