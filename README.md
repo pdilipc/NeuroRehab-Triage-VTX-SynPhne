@@ -1,3 +1,3 @@
 # NeuroRehab-Triage-VTX-SynPhne
 
-MVP build per project-plan task S2.2 in the Gantt Chart of Project planning and Master plan documents; early-stage; runs against a FHIR R4 server with synthetic data
+Verada VTX — Neuro-rehab triage prototype (MVP, in development). Pre-rehab readiness/triage flow feeding the VTX dashboard; React + Vite + TypeScript with a FHIR service layer, synthetic data only. Origin of the triage module now carried in the MDT dashboard. Early-stage (TRL 3); not a Year-1 dependency.
